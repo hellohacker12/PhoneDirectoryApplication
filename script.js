@@ -77,7 +77,7 @@ let refreshDOMTable = () => {
 
         let addNewEntryBtn = document.getElementById('pdaAddNewEntry');
         let editBtns= document.getElementsByClassName('pda-edit');
-        let deleteBtns=document.getElementsByClassName('pda-delete');
+        let deleteBtns=document.getEemntsByClassName('pda-delete');
 
         let newPersonSubmitBtn=document.getElementById('newPersonSubmitBtn');
         let newPersonCancelBtn=document.getElementById('newPersonCancelBtn');
